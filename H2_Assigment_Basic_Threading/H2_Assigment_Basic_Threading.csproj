@@ -43,11 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ExerciseOne\MessageExerciseOne.cs" />
-    <Compile Include="ExerciseOne\StartExerciseOne.cs" />
-    <Compile Include="ExerciseThree\StartExerciseThree.cs" />
-    <Compile Include="ExerciseZero\StartExerciseZero.cs" />
-    <Compile Include="ExerciseZero\MessageExerciseZero.cs" />
+    <Compile Include="ExerciseFour.cs" />
+    <Compile Include="ExerciseOneAndTwo.cs" />
+    <Compile Include="ExerciseThree.cs" />
+    <Compile Include="ExerciseZero.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

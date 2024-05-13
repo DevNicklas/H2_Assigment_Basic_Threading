@@ -3,24 +3,25 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading;
+using System.Threading.Tasks;
 
-namespace H2_Assigment_Basic_Threading.ExerciseThree
+namespace H2_Assigment_Basic_Threading
 {
     /// <summary>
-    /// Represents the first assignment/exercise for basic threading.
+    /// Represents the third assigment/exercise for basic threading
     /// </summary>
-    internal class StartExerciseThree
+    public class ExerciseThree
     {
         /// <summary>
-        /// Runs exercise one.
+        /// Runs exercise three.
         /// </summary>
         public void RunExercise()
         {
             Thread tempThread = new Thread(StartTemp);
             tempThread.Start();
 
-            // Check if tempeture thread is alive every 10 second.
-            while(IsThreadAlive(tempThread))
+            // Check if tempeture thread is alive every 10 seconds
+            while (IsThreadAlive(tempThread))
             {
                 Thread.Sleep(10000);
             }
@@ -31,7 +32,7 @@ namespace H2_Assigment_Basic_Threading.ExerciseThree
         }
 
         /// <summary>
-        /// Starts the temperature game.
+        /// Starts the temperature game
         /// </summary>
         public void StartTemp()
         {
@@ -41,12 +42,12 @@ namespace H2_Assigment_Basic_Threading.ExerciseThree
             const int minTemp = -20;
             const int maxTemp = 120;
 
-            // Check if the temperature has been out of the allowed range three times, every 2 seconds.
+            // Check if the temperature has been out of the allowed range three times, every 2 seconds
             while (alarmCount < 3)
             {
                 int temp = rand.Next(minTemp, maxTemp + 1);
 
-                // Check temperature is withing the allowed range.
+                // Check temperature is withing the allowed range
                 if (!CheckTemp(temp))
                 {
                     alarmCount++;
