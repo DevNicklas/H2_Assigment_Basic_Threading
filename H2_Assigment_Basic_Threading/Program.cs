@@ -13,8 +13,8 @@ namespace H2_Assigment_Basic_Threading
         public static void Main(string[] args)
         {
             // Exercise Zero
-            // ExerciseZero exerciseZero = new ExerciseZero();
-            // exerciseZero.RunExercise();
+            ExerciseZero exerciseZero = new ExerciseZero();
+            exerciseZero.RunExercise();
 
             // Exercise One
             // ExerciseOneAndTwo exerciseOneAndTwo = new ExerciseOneAndTwo();
@@ -25,8 +25,8 @@ namespace H2_Assigment_Basic_Threading
             // exerciseThree.RunExercise();
 
             // Exercise Four
-            ExerciseFour exerciseFour = new ExerciseFour();
-            exerciseFour.RunExercise();
+            // ExerciseFour exerciseFour = new ExerciseFour();
+            // exerciseFour.RunExercise();
 
             Console.Read();
         }

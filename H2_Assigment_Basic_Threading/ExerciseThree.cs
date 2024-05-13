@@ -27,8 +27,6 @@ namespace H2_Assigment_Basic_Threading
             }
 
             Console.WriteLine("Alarm-tråd termineret");
-
-            Console.Read();
         }
 
         /// <summary>

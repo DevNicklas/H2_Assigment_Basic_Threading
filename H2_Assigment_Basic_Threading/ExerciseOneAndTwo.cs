@@ -21,8 +21,6 @@ namespace H2_Assigment_Basic_Threading
 
             easyThreading.Start();
             easyMultipleThreading.Start();
-
-            Console.Read();
         }
 
         /// <summary>

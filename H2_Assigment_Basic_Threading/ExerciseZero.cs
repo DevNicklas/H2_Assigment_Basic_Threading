@@ -28,8 +28,6 @@ namespace H2_Assigment_Basic_Threading
             // Start threads
             firstThread.Start();
             secondThread.Start();
-
-            Console.Read();
         }
 
         /// <summary>
